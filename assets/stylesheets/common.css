@@ -1,0 +1,89 @@
+a.login {
+  padding-top: 2%; }
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(https://useshrug.com/img/landing-bg.png); }
+
+a.login {
+  font-size: 18px;
+  color: white;
+  vertical-align: middle;
+  padding-left: 60%; }
+
+h1 {
+  padding-top: 18%;
+  font-size: 25px; }
+
+.hero > #holder > h2 {
+  color: blue; }
+
+.hero > #holder > h1 {
+  color: white;
+  font-weight: bold; }
+
+#box {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 7px; }
+
+#open_par {
+  padding-top: 10%;
+  font-size: 18px; }
+
+@media screen and (min-width: 480px) {
+  #holder {
+    margin-right: 25%;
+    margin-left: 25%; } }
+.intro {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold; }
+
+.register {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 5%; }
+
+#email {
+  padding-left: 7.8%; }
+
+#name, #fullname, #email, #password {
+  padding-top: 2%; }
+
+#getstarted {
+  float: right;
+  padding-top: 1%; }
+
+#password {
+  padding-bottom: 5%; }
+
+.row, .col-md-3 {
+  border: 2px solid lightgrey; }
+
+#footer {
+  padding-top: 1%;
+  list-style: none; }
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; }
+
+li {
+  display: inline-flex;
+  float: right;
+  margin: 1%;
+  color: lightgrey; }
+
+#leftitem {
+  float: left; }
+
+/*# sourceMappingURL=common.css.map */
